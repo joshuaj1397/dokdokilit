@@ -1,0 +1,67 @@
+{
+  "vertices": [
+    {
+      "name": "New Game",
+      "desc": "Start a new game"
+    },
+    {
+      "name": "Write Two Poems for Natsuki",
+      "desc": "Write two poems for Natsuki in the first two days of Act II"
+    },
+    {
+      "name": "Natsuki Dies",
+      "desc": "Cause of death: Glitched Mouth"
+    },
+    {
+      "name": "Start Act II",
+      "desc": "New Act, New Me"
+    },
+    {
+      "name": "Sayori Kills Herself",
+      "desc": "Cause of death: Monika Deleted Her | Unavoidable"
+    },
+    {
+      "name": "Save",
+      "desc": "Use with caution"
+    },
+    {
+      "name": "Write Three Poems for Yuri",
+      "desc": "Write three poems for Yuri in Act I then save"
+    },
+    {
+      "name": "Write Three Poems for Natsuki",
+      "desc": "Write three poems for Yuri in Act I then save"
+    },
+    {
+      "name": "Write Three Poems for Sayori",
+      "desc": "Write three poems for Sayori in Act I"
+    },
+    {
+      "name": "End Game",
+      "desc": "Congrats!"
+    },
+    {
+      "name": "Delete Monika",
+      "desc": "Delete Monika's game file"
+    },
+    {
+      "name": "Sayori Gains Sentience",
+      "desc": "Sayori is now the game master"
+    },
+    {
+      "name": "Delete the \"firstrun\" file",
+      "desc": "Now you can truly start a new game"
+    },
+    {
+      "name": "Monika Deletes Everything",
+      "desc": "Monika kills herself and the world she resides in called DDLC"
+    },
+    {
+      "name": "Confess to Yuri",
+      "desc": "Confess your love, put your feet in the light"
+    },
+  ],
+  "edges": [
+
+  ]
+}

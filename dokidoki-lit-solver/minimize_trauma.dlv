@@ -1,0 +1,11 @@
+bestPath(X, Y, T) | -bestPath(X, Y, T) :- edge(X, Y, T).
+:~ bestPath(X, Y, T), edge(X, Y, T). [T:]
+path(X, Y) :- bestPath(X, Y, T), edge(X, Y, T).
+path(X, Y) :- bestPath(X, Y, T), edge(X, Y, T), path(X, Y).
+
+connected(X, Y, T) :- edge(X, Y, T).
+connected(X, Y, T) :- T = T1 + T2, edge(X, Z, T1), connected(Z, Y, T2).
+
+:- not reached(Y), connected(X, Y, _), source(X), target(Y).
+reached(X) :- source(X).
+reached(X) :- reached(Y), path(Y, X).
