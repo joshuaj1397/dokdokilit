@@ -1,0 +1,9 @@
+#maxint=25.
+source(1).
+target(4).
+node(0..4).
+edge(0, 1, 1).
+edge(0, 4, 2).
+edge(1, 3, 3).
+edge(3, 2, 4).
+edge(3, 4, 5).
